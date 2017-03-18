@@ -4,6 +4,6 @@
 </head>
 <body>
 <h1>Lorem Ipsum</h1>
-<p class="lorem">Lorem ipsum dolor sit amet...</p>
+<p>Lorem ipsum dolor sit amet...</p>
 </body>
 </html>
