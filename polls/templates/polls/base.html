@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<title>Polls</title>
+<link rel="stylesheet" href="{% static 'mysite/css/bootstrap.min.css' %}">
+<script src="{% static 'mysite/js/jquery-3.2.1.min.js' %}"></script>
+<script src="{% static 'mysite/js/bootstrap.min.js' %}"></script>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">My apps</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/">Home</a></li>
+      <li class="active"><a href="/polls/">Polls</a></li>
+      <li><a href="/blog/">Blog</a></li>
+    </ul>
+  </div>
+</nav>
+
+{% block app_pages %}
+{% endblock %}
